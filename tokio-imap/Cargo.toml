@@ -19,7 +19,7 @@ maintenance = { status = "passively-maintained" }
 bytes = "1"
 futures-util = "0.3.8"
 futures-sink = "0.3.8"
-imap-proto = { version = "0.16", path = "../imap-proto" }
+imap-proto = { git ="https://github.com/djc/tokio-imap.git" }
 nom = "7"
 pin-project = "1"
 rustls-pki-types = "1"
